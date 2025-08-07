@@ -8,7 +8,7 @@ void iniciaFila(Fila *fila){
   fila->fim = -1; //Inicialização da fila na posição -1(vaiza)
 }
 
-void incereElemento(Fila *fila, int *n){
+void insereElemento(Fila *fila, int *n){
   fila->fim++;
   fila->elemento[fila->fim] = *n;
 }

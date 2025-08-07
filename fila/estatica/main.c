@@ -21,12 +21,12 @@ int main(){
     scanf("%d", &operacao);
     if(operacao == 1){
       printf("*********************** \n");
-      printf("   Incerir elemento \n");
+      printf("   Inserir elemento \n");
       printf("*********************** \n");
       int n;
       printf("Digite o elemento a ser inserido: \n");
       scanf("%d", &n);
-      incereElemento(&fila, &n);
+      insereElemento(&fila, &n);
     }
     else if(operacao == 2){
       printf("*********************** \n");
